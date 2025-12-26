@@ -6,9 +6,9 @@
 
 
 
-This project implements and verifies a \*\*Serial Peripheral Interface (SPI)\*\* communication system using SystemVerilog.  
+This project implements and verifies a **Serial Peripheral Interface (SPI)** communication system using SystemVerilog.  
 
-The design includes a \*\*SPI Master\*\* and \*\*SPI Slave\*\*, along with a fully functional \*\*self-checking verification environment\*\*.
+The design includes a **SPI Master** and **SPI Slave**, along with a fully functional **self-checking verification environment**.
 
 
 
@@ -55,44 +55,44 @@ The verification environment validates correct data transfer, synchronization, a
 
 **Top-Level Modules**
 
-- `spi\_master`
+- `spi_master`
 
-- `spi\_slave`
+- `spi_slave`
 
 
 
 **Interface**
 
-- `spi\_if` connects master, slave, and testbench
+- `spi_if` connects master, slave, and testbench
 
 
 
 ```systemverilog
 
-module spi\_master(
+module spi_master(
 
-&nbsp; input  clk,
+  input  clk,
 
-&nbsp; input  rst,
+  input  rst,
 
-&nbsp; input  newd,
+  input  newd,
 
-&nbsp; input  \[11:0] din,
+  input  [11:0] din,
 
-&nbsp; output reg cs,
+  output reg cs,
 
-&nbsp; output reg mosi,
+  output reg mosi,
 
-&nbsp; output reg sclk
+  output reg sclk
 
 );
 
-&nbsp; // SPI implementation
+  // SPI implementation
 
 endmodule
 
 
-module spi\_slave(
+module spi_slave(
 
 input cs, 
 
@@ -102,9 +102,9 @@ input sclk,
 
 input rst,
 
-&nbsp; output reg done, 
+  output reg done, 
 
-&nbsp; output \[11:0] dout
+  output [11:0] dout
 
 );
 
