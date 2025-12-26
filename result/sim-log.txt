@@ -1,0 +1,27 @@
+# KERNEL: reset done
+# KERNEL: ----------------------------
+# KERNEL: [GEN]: din = 935
+# KERNEL: [DRV] : DATA SENT TO DAC : 935
+# KERNEL: [MON] : DATA received : 935
+# KERNEL: [SCO] : DRV : 935 MON : 935
+# KERNEL: [SCO] : DATA MATCHED
+# KERNEL: -----------------------------------------
+# KERNEL: [GEN]: din = 4060
+# KERNEL: [DRV] : DATA SENT TO DAC : 4060
+# KERNEL: [MON] : DATA received : 4060
+# KERNEL: [SCO] : DRV : 4060 MON : 4060
+# KERNEL: [SCO] : DATA MATCHED
+# KERNEL: -----------------------------------------
+# KERNEL: [GEN]: din = 3576
+# KERNEL: [DRV] : DATA SENT TO DAC : 3576
+# KERNEL: [MON] : DATA received : 3576
+# KERNEL: [SCO] : DRV : 3576 MON : 3576
+# KERNEL: [SCO] : DATA MATCHED
+# KERNEL: -----------------------------------------
+# KERNEL: [GEN]: din = 3153
+# KERNEL: [DRV] : DATA SENT TO DAC : 3153
+# KERNEL: [MON] : DATA received : 3153
+# KERNEL: [SCO] : DRV : 3153 MON : 3153
+# KERNEL: [SCO] : DATA MATCHED
+# KERNEL: -----------------------------------------
+# RUNTIME: Info: RUNTIME_0068 testbench.sv (189): $finish called.
