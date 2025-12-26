@@ -1,8 +1,8 @@
-\# SPI Master–Slave Design and Verification (SystemVerilog)
+# SPI Master–Slave Design and Verification (SystemVerilog)
 
 
 
-\## Overview
+## Overview
 
 
 
@@ -20,29 +20,29 @@ The verification environment validates correct data transfer, synchronization, a
 
 
 
-\## Design Overview
+## Design Overview
 
 
 
-\### SPI Master
+### SPI Master
 
-\- Generates serial clock (SCLK)
+- Generates serial clock (SCLK)
 
-\- Drives MOSI line
+- Drives MOSI line
 
-\- Controls chip-select (CS)
+- Controls chip-select (CS)
 
-\- Handles transmission of parallel data serially
+- Handles transmission of parallel data serially
 
 
 
-\### SPI Slave
+### SPI Slave
 
-\- Samples MOSI on clock edges
+- Samples MOSI on clock edges
 
-\- Reconstructs received data
+- Reconstructs received data
 
-\- Indicates successful reception
+- Indicates successful reception
 
 
 
@@ -50,21 +50,20 @@ The verification environment validates correct data transfer, synchronization, a
 
 
 
-\## RTL Architecture
+## RTL Architecture
+
+
+**Top-Level Modules**
+
+- `spi\_master`
+
+- `spi\_slave`
 
 
 
-\*\*Top-Level Modules\*\*
+**Interface**
 
-\- `spi\_master`
-
-\- `spi\_slave`
-
-
-
-\*\*Interface\*\*
-
-\- `spi\_if` connects master, slave, and testbench
+- `spi\_if` connects master, slave, and testbench
 
 
 
